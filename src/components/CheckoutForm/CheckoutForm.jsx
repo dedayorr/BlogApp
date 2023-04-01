@@ -2,7 +2,7 @@ import React from "react";
 import { useFlutterwave, closePaymentModal } from "flutterwave-react-v3";
 import { useState } from "react";
 import { useContext } from "react";
-import { Context, ContextProvider } from "../Context";
+import { ContextProvider } from "../Context";
 import {AiFillCloseCircle} from "react-icons/ai"
 
 export default function CheckoutForm() {
@@ -10,7 +10,7 @@ export default function CheckoutForm() {
   const [fullName, setFullName] = useState("");
   const [phoneNumber, setPhoneNumber ] = useState("");
   const [email, setEmail] = useState("");
-  const [formOpen, setFormOpen] = useState(true)
+  // const [formOpen, setFormOpen] = useState(true)
 
   function fullNameHandler(e) {
     setFullName(e.target.value);
@@ -47,9 +47,9 @@ export default function CheckoutForm() {
       <form className="flex flex-col gap-5 w-[90%] lg:w-[40%] p-[5%] drop-shadow-2xl bg-[#000000dd] mx-auto mt-[50%] lg:mt-[10%] h-[]">
       <div
           className="absolute left-[325px] bottom-[97%] text-3xl text-[#f3f3f4] md:left-[98%]"
-          onClick={() => {
-            setFormOpen(false);
-          }}
+          // onClick={() => {
+          //   setFormOpen(false);
+          // }}
         >
           <AiFillCloseCircle />
         </div>

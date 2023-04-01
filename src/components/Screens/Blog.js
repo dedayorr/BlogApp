@@ -68,7 +68,7 @@ export const Blog = () => {
                 </div>
                 <a
                   href="https://www.theverge.com/2023/3/18/23618649/noninvasive-blood-glucose-monitoring-wearables-smartwatches"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   If you’re diabetic, don’t wait for your smartwatch to replace
                   your needles
@@ -83,7 +83,7 @@ export const Blog = () => {
                 </div>
                 <a
                   href="https://www.theverge.com/2023/3/17/23644501/microsoft-copilot-ai-office-documents-microsoft-365-report"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Microsoft’s new Copilot will change Office documents forever
                 </a>
@@ -97,7 +97,7 @@ export const Blog = () => {
                 </div>
                 <a
                   href="https://www.theverge.com/2023/3/17/23644792/amazon-swarm-review-donald-glover-janine-nabers"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   Amazon’s Swarm is so close to being brilliant
                 </a>
@@ -111,7 +111,7 @@ export const Blog = () => {
                 </div>
                 <a
                   href="https://www.theverge.com/23636586/apple-pencil-2nd-generation-knockoff-clone-budget-review"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   This Apple Pencil clone provides 80 percent of the experience
                   for a quarter of the price
@@ -125,7 +125,7 @@ export const Blog = () => {
                 </div>
                 <a
                   href="https://www.theverge.com/2023/3/16/23643047/vw-id-2-all-ev-price-photo-specs"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   VW beats Tesla to the punch and unveils an affordable electric
                   vehicle
@@ -152,7 +152,7 @@ export const Blog = () => {
           >
             <a
               href="https://www.theverge.com/2023/3/17/23644501/microsoft-copilot-ai-office-documents-microsoft-365-report"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p className="font-extrabold text-2xl text-[#4e66c3] hover:underline">
                 {truncate(
@@ -176,7 +176,7 @@ export const Blog = () => {
           >
             <a
               href="https://www.theverge.com/2023/3/20/23648343/agility-robotics-digit-next-gen-bipedal-bot"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p className="font-extrabold text-2xl text-[#4e66c3] hover:underline">
                 {truncate(
@@ -200,7 +200,7 @@ export const Blog = () => {
           >
             <a
               href="https://www.engadget.com/us-authorities-arrest-alleged-breachforums-owner-and-fbi-hacker-pompompurin-170009266.html"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p className="font-extrabold text-2xl text-[#000] hover:underline">
                 {truncate(
@@ -223,7 +223,7 @@ export const Blog = () => {
           >
             <a
               href="https://www.engadget.com/this-insertable-3d-printer-will-repair-tissue-damage-from-the-inside-185147733.html"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p className="font-extrabold text-2xl text-[#4e66c3] hover:underline">
                 {truncate(
@@ -255,7 +255,7 @@ export const Blog = () => {
                 <img src="./latest1.jpg" alt="img" width={100} />
                 <a
                   href="https://www.digitaltrends.com/gaming/tchia-review-pc-epic-games-store/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <p className="hover:text-[#4e66c3] ">
                     Tchia review: beautiful open-world indie is a new
@@ -270,7 +270,7 @@ export const Blog = () => {
                 <img src="./latest2.webp" alt="img" width={100} />
                 <a
                   href="https://www.digitaltrends.com/movies/boston-strangler-2023-movie-review/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   {" "}
                   <p className="hover:text-[#4e66c3]">
@@ -285,7 +285,7 @@ export const Blog = () => {
                 <img src="./latest3.jpg" alt="" width={100} />
                 <a
                   href="https://www.digitaltrends.com/movies/inside-2023-movie-review/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <p className="hover:text-[#4e66c3]">
                     Inside review: a dour, ill-conceived psychological drama
@@ -299,7 +299,7 @@ export const Blog = () => {
                 <img src="./latest4.jpg" alt="img" width={100} />
                 <a
                   href="https://www.digitaltrends.com/gaming/resident-evil-4-review-ps5/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <p className="hover:text-[#4e66c3]">
                     Resident Evil 4 review: all-time horror classic gets the
@@ -314,7 +314,7 @@ export const Blog = () => {
                 <img src="./latest5.jpg" alt="img" width={100} />
                 <a
                   href="https://www.digitaltrends.com/home-theater/klipsch-the-sevens-review/"
-                  target="_blank"
+                  target="_blank" rel="noreferrer"
                 >
                   <p className="hover:text-[#4e66c3]">
                     Klipsch The Sevens review: skip the AVR and subwoofer; this
@@ -353,7 +353,7 @@ export const Blog = () => {
               />
               <a
                 href="https://www.digitaltrends.com/computing/bitwarden-autofill-may-be-unsafe/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
               >
                 <p className="hover:text-[#4e66c3] text-white font-bold md:text-2xl">
                   If you use this free password manager, your passwords might be
@@ -371,7 +371,7 @@ export const Blog = () => {
           <p className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://venturebeat.com/enterprise-analytics/the-difference-between-application-observability-and-data-observability/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               The difference between application observability and data
               observability
@@ -389,7 +389,7 @@ export const Blog = () => {
           <p className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://mashable.com/ad/article/data-leaks-breach-protection"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Protect yourself against data leaks and breaches
             </a>
@@ -406,7 +406,7 @@ export const Blog = () => {
           <p className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://venturebeat.com/data-infrastructure/an-open-data-lakehouse-will-maintain-and-grow-the-value-of-your-data/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               An open data lakehouse will maintain and grow the value of your
               data
@@ -424,7 +424,7 @@ export const Blog = () => {
           <p className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://venturebeat.com/ai/data-through-a-prism-ai-powered-analysis-key-to-gleaning-data-insights/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Data through a prism: AI-powered analysis key to gleaning data
               insights
@@ -442,7 +442,7 @@ export const Blog = () => {
           <p className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://mashable.com/article/openai-chatgpt-bug-exposed-user-data-privacy-breach"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               The ChatGPT bug exposed more private data than previously thought,
               OpenAI confirms

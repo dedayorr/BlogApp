@@ -1,11 +1,11 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { AiFillCloseCircle } from "react-icons/ai";
 import Spinner from "../Spinner/Spinner";
 import { toast } from "react-toastify";
 import { v4 as uuidv4 } from "uuid";
 
 export const Addblog = ({ setBlogOpen, getBlogs }) => {
-  const InputRef = useRef(null);
+  
   const [loading, setLoading] = useState(false);
   const [state, setState] = useState({
     title: "",

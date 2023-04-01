@@ -1,5 +1,5 @@
-import React, { createContext, useState, useEffect } from "react";
-import { toast } from "react-toastify";
+import React, { createContext, useState, } from "react";
+
 
 export const ContextProvider = createContext();
 

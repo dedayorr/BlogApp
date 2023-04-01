@@ -18,6 +18,7 @@ export const Store = () => {
   // const [cartItems, setCartItems] = useState([]);
   useEffect(()=>{
     getBooks()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
       },[])
 
   const Books = [

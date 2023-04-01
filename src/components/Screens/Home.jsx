@@ -49,7 +49,7 @@ export const Home = () => {
           <a
             className="hover:underline"
             href="https://www.wired.com/story/i-saw-the-face-of-god-in-a-tsmc-factory/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <h1 className="font-serif font-extrabold text-3xl md:text-5xl">
               I Saw the Face of God in a Semiconductor Factory
@@ -109,7 +109,7 @@ export const Home = () => {
             <a
               className="hover:underline"
               href="https://www.vox.com/technology/2023/3/21/23645362/tiktok-shou-zi-chew-congress-ban"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p className="font-bold font-2xl">Is Tiktok Too Big To Ban?</p>
             </a>
@@ -127,7 +127,7 @@ export const Home = () => {
             <a
               className="hover:underline"
               href="https://www.vox.com/technology/2023/3/16/23643806/ai-microsoft-word-powerpoint-office-google-artificial-intelligence-chatgpt-automation-jobs-work"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p className="font-bold font-2xl">
                 Will using AI make Microsoft Word better? We’re going to find
@@ -149,7 +149,7 @@ export const Home = () => {
             <a
               className="hover:underline font-bold"
               href="https://www.wired.com/story/four-people-tweeting-nigeria-politics-peter-obi/"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <p>'4 People Tweeting' Changed the Face of Nigerian Politics</p>
             </a>
@@ -169,7 +169,7 @@ export const Home = () => {
           <p className="text-blue-400 font-bold text-[13px] mt-[10px] mb-[10px] hover:underline">
             <a
               href="https://www.weforum.org/agenda/authors/murali-doraiswamy"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               P. Murali Doraiswamy
             </a>{" "}
