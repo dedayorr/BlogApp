@@ -7,6 +7,7 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import { Cart } from "../Cart/Cart";
 import { ContextProvider } from "../Context";
+import ScrollToTop from "react-scroll-to-top";
 
 export const Store = () => {
   const {addToCart, cartBooks, getBooks} = useContext(ContextProvider)
@@ -304,7 +305,9 @@ export const Store = () => {
         <img src="./read.jpg" width={400} height={400} alt="img" />
         <img src="./bookgraphic.jpeg" width={400} height={400} alt="img" />
       </div>
+      <ScrollToTop/>
     </div>
+
   );
 };
 

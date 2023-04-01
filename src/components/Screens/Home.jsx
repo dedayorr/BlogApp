@@ -581,8 +581,8 @@ export const Home = () => {
           </p>
         </div>
 
-        <Link className="hover:text-blue-500 text-2xl flex justify-center items-center gap-3 mb-[20px]" to="/storepage">CLICK HERE TO BUY BOOKS <AiOutlineArrowRight/></Link>
-       <div className="flex mx-auto justify-center items-center bg-blue-600" > <ScrollToTop smooth/></div>
+        <Link className="hover:text-blue-500 text-2xl flex justify-center items-center gap-3 mb-[20px]" to="/storepage" onClick={<ScrollToTop/>}>CLICK HERE TO BUY BOOKS <AiOutlineArrowRight/></Link>
+       <ScrollToTop/>
       </div>
     </>
   );
