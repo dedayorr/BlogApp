@@ -7,6 +7,7 @@ import { AiFillInstagram } from "react-icons/ai";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { BsTelephoneForwardFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+import ScrollToTop from "react-scroll-to-top";
 
 export const Navigation = () => {
   const [open, setOpen] = useState(false);
@@ -47,14 +48,17 @@ export const Navigation = () => {
             <li>
               <Link to="/">HOME</Link>
             </li>
-            <li className="">
+            <li className="" onClick={<ScrollToTop />}>
               <Link to="/blogpage">BLOG</Link>
             </li>
-            <li>
+            <li onClick={<ScrollToTop />}>
               <Link to="/storepage">STORE</Link>
             </li>
-            <li>
+            <li onClick={<ScrollToTop />}>
               <Link to="/contactpage">CONTACT</Link>
+            </li>
+            <li onClick={<ScrollToTop />}>
+              <Link to="/dashboard">DASHBOARD</Link>
             </li>
           </ul>
         )}
@@ -63,14 +67,17 @@ export const Navigation = () => {
           <li className="cursor hover:underline">
             <Link to="/">HOME</Link>
           </li>
-          <li className="cursor hover:underline">
+          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
             <Link to="/blogpage">BLOG</Link>
           </li>
-          <li className="cursor hover:underline">
+          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
             <Link to="/storepage">STORE</Link>
           </li>
-          <li className="cursor hover:underline">
+          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
             <Link to="/contactpage">CONTACT</Link>
+          </li>
+          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
+            <Link to="/dashboard">DASHBOARD</Link>
           </li>
         </ul>
       </div>

@@ -7,6 +7,7 @@ import { Contact } from "./components/Screens/Contact";
 // import { Layout } from './components/Layout/Layout'
 import { Navigation } from "./components/Navigation/Navigation";
 import { Footer } from "./components/Footer/Footer";
+import Dash from "./components/Screens/Dash";
 
 export const Router = () => {
   return (
@@ -18,6 +19,7 @@ export const Router = () => {
         <Route path="/blogpage" element={<Blog />} />
         <Route path="/storepage" element={<Store />} />
         <Route path="/contactpage" element={<Contact />} />
+        <Route path="/dashboard" element={<Dash />} />
       </Routes>
       <Footer />
     </div>
