@@ -14,11 +14,10 @@ export const Blogcard = ({ blog, getBlogs, setUpdateOpen, collectId }) => {
   function removeId(id) {
     const blogs = JSON.parse(localStorage.getItem("blogs"));
     const blogCopy = [...blogs];
-    console.log(blogCopy);
+
     const filterBlogs = blogCopy.filter((item) => item.id !== id);
-    console.log(filterBlogs);
+
     localStorage.setItem("blogs", JSON.stringify(filterBlogs));
-    console.log(id);
   }
 
   function removeHandler(id) {

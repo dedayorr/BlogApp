@@ -48,16 +48,16 @@ export const Navigation = () => {
             <li>
               <Link to="/">HOME</Link>
             </li>
-            <li className="" onClick={<ScrollToTop />}>
+            <li className="" onClick={()=>{<ScrollToTop />}}>
               <Link to="/blogpage">BLOG</Link>
             </li>
-            <li onClick={<ScrollToTop />}>
+            <li onClick={()=>{<ScrollToTop />}}>
               <Link to="/storepage">STORE</Link>
             </li>
-            <li onClick={<ScrollToTop />}>
+            <li onClick={()=>{<ScrollToTop />}}>
               <Link to="/contactpage">CONTACT</Link>
             </li>
-            <li onClick={<ScrollToTop />}>
+            <li onClick={()=>{<ScrollToTop />}}>
               <Link to="/dashboard">DASHBOARD</Link>
             </li>
           </ul>
@@ -67,16 +67,16 @@ export const Navigation = () => {
           <li className="cursor hover:underline">
             <Link to="/">HOME</Link>
           </li>
-          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
             <Link to="/blogpage">BLOG</Link>
           </li>
-          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
             <Link to="/storepage">STORE</Link>
           </li>
-          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
             <Link to="/contactpage">CONTACT</Link>
           </li>
-          <li className="cursor hover:underline" onClick={<ScrollToTop />}>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
             <Link to="/dashboard">DASHBOARD</Link>
           </li>
         </ul>

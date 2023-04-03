@@ -166,7 +166,7 @@ export const Home = () => {
           <p className="font-extrabold text-xl mt-[20px] md:text-4xl">
             4 brain technologies that will shape our future
           </p>
-          <p className="text-blue-400 font-bold text-[13px] mt-[10px] mb-[10px] hover:underline">
+          <div className="text-blue-400 font-bold text-[13px] mt-[10px] mb-[10px] hover:underline">
             <a
               href="https://www.weforum.org/agenda/authors/murali-doraiswamy"
               target="_blank" rel="noreferrer"
@@ -177,7 +177,7 @@ export const Home = () => {
               Professor of Psychiatry and Medicine, Duke University Medical
               Center
             </p>
-          </p>
+          </div>
           <img className="md:hidden" src="./image4.jpeg" alt="img" />
           <div className="flex gap-3">
             <img
@@ -581,9 +581,17 @@ export const Home = () => {
           </p>
         </div>
 
-        <Link className="hover:text-blue-500 text-2xl flex justify-center items-center gap-3 mb-[20px]" to="/storepage" onClick={<ScrollToTop/>}>CLICK HERE TO BUY BOOKS <AiOutlineArrowRight/></Link>
+        <Link className="hover:text-blue-500 text-2xl flex justify-center items-center gap-3 mb-[20px]" to="/storepage" onClick={()=>{<ScrollToTop/>}}>CLICK HERE TO BUY BOOKS <AiOutlineArrowRight/></Link>
        <ScrollToTop/>
       </div>
+
+
+
+
+
+
+
+      
     </>
   );
 };

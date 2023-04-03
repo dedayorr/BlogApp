@@ -1,5 +1,5 @@
 import React, { useState, useContext, useEffect } from "react";
-import AwesomeSlider from "react-awesome-slider";
+// import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 import { BsCart4 } from "react-icons/bs";
 import { BsFillTagsFill } from "react-icons/bs";
@@ -163,7 +163,7 @@ export const Store = () => {
       <p className="absolute top-[38%] right-[5%] left-[5%] font-extrabold text-4xl text-white z-40 md:text-6xl">
         “Books are a uniquely portable magic.”
       </p>
-      <AwesomeSlider
+      {/* <AwesomeSlider
         animation="cubeAnimation"
         className="h-[450px] w-[100px] md:h-[500px]"
       >
@@ -176,7 +176,7 @@ export const Store = () => {
         />
         <img data-src="skullbooks.jpg" alt="imagem" title="imagem" />
         <img data-src="book-walljpg.jpg" alt="imagem" title="imagem" />
-      </AwesomeSlider>
+      </AwesomeSlider> */}
       <br></br>
       <br></br>
       <div className="flex md:justify-center gap-[50px]">
