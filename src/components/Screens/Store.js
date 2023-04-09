@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect } from "react";
 // import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
+// import "react-awesome-slider/dist/styles.css";
 import { BsCart4 } from "react-icons/bs";
 import { BsFillTagsFill } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";

@@ -30,7 +30,7 @@ export const Navigation = () => {
           <AiFillTwitterCircle />
         </div>
       </div>
-      <div className="sticky top-0 bg-[#006] flex justify-between p-[5%] md:p-[1%] md: z-50">
+      <div className=" bg-[#006] flex justify-between p-[5%] md:p-[1%] md: z-50">
         <div className="flex justify-center items-center gap-[10px] text-[#f0e8e8] md:ml-[3%]">
           <div className="text-5xl">
             <FaBlog />
@@ -44,7 +44,7 @@ export const Navigation = () => {
           <RxHamburgerMenu />
         </div>
         {open && (
-          <ul className="font-bold bg-[#f0e8e8] hover:bg-[#8EA7E9] absolute top-[98%] right-0 bottom-[270px] w-[60%] p-[10%] text-black flex flex-col gap-[30px]">
+          <ul className="font-bold bg-[#f0e8e8] hover:bg-[#8EA7E9] absolute top-[15%] right-0 bottom-[270px] w-[60%] p-[10%] text-black flex flex-col gap-[30px]">
             <li>
               <Link to="/">HOME</Link>
             </li>

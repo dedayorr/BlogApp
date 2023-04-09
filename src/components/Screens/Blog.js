@@ -17,7 +17,7 @@ export const Blog = () => {
         {/* ====FIRST SECTION=== */}
 
         <div className="md:flex">
-          <div className=" md:hidden">
+          <div className="md:hidden">
             <Player
               src="https://assets3.lottiefiles.com/packages/lf20_eKikFJ.json"
               background="transparent"
