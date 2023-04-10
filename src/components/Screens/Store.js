@@ -6,4 +6,4 @@ const Store = () => {
   )
 }
 
-export default Store
+export {Store}
