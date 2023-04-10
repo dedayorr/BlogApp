@@ -25,8 +25,9 @@ export const Context = ({ children }) => {
   }
 
   const getBooks = () => {
-    const gottenBooks = JSON.parse(localStorage.getItem("books"));
-    setCartBooks(gottenBooks);
+    const gottenBooks = localStorage.getItem("books") ? JSON.parse(localStorage.getItem("books")) : [];
+    // setCartBooks(gottenBooks);
+    return gottenBooks
   };
 
   const addButton =(books)=>{
