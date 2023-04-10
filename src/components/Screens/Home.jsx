@@ -358,7 +358,7 @@ export const Home = () => {
         >
           Add Blogs
         </button>
-        <div className="flex items-center p-[2%] text-center text-xl md:p-0 md:float-right hover:text-[#4e66c3]">
+        <div className="flex items-center p-[2%] text-center text-xl md:p-0 md:float-right hover:text-[#4e66c3]" onClick={()=>{<ScrollToTop/>}}>
           <Link to="/blogpage">CLICK HERE TO SEE MORE BLOGS...</Link>
         </div>
       </div>

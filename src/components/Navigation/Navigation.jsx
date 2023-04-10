@@ -51,7 +51,7 @@ export const Navigation = () => {
             <li className="" onClick={()=>{<ScrollToTop />}}>
               <Link to="/blogpage">BLOG</Link>
             </li>
-            <li >
+            <li onClick={()=>{<ScrollToTop />}}>
               <Link to="/storepage">STORE</Link>
             </li>
             <li onClick={()=>{<ScrollToTop />}}>
