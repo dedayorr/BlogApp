@@ -65,7 +65,7 @@ export const Cart = () => {
 
       {CheckoutFormOpen && (
         <Modal>
-          <CheckoutForm />
+          <CheckoutForm setCheckoutFormOpen={setCheckoutFormOpen}/>
         </Modal>
       )}
     </div>
