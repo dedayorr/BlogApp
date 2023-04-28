@@ -11,7 +11,7 @@ import ScrollToTop from "react-scroll-to-top";
 
 export const Store = () => {
   const {addToCart, cartBooks, getBooks} = useContext(ContextProvider)
-  console.log(getBooks())
+  // console.log(getBooks())
   const [newArrival, setnewArrival] = useState(null);
   const [shipping, setShipping] = useState(false);
   const [openCart, setopenCart] = useState(false);

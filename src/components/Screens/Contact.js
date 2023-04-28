@@ -22,17 +22,17 @@ export const Contact = () => {
       <form className="mt-[20px] border w-[90%] mx-auto flex flex-col gap-[15px] p-[2%] mb-[20px] md:w-[60%]">
         <div className="flex gap-3">
           <MdDriveFileRenameOutline />
-          <label for="name">Your Name:</label>
+          <label htmlFor="name">Your Name:</label>
         </div>
         <input className="h-[45px]" type="text" name="name" />
         <div className="flex gap-3">
           <AiOutlineMail />
-          <label for="name">E-mail Address:</label>
+          <label htmlFor="name">E-mail Address:</label>
         </div>
         <input className="h-[45px]" type="email" name="address" />
         <div className="flex gap-3">
           <BsQuestionCircleFill />
-          <label for="name">Enquiry:</label>
+          <label htmlFor="name">Enquiry:</label>
         </div>
         <input className="h-[200px]" type="text" name="enquiry" />
       </form>

@@ -21,7 +21,7 @@ export const Context = ({ children }) => {
       const fetchBooksCopy = [...fetchBooks, data];
       localStorage.setItem("books", JSON.stringify(fetchBooksCopy));
     }
-    // getBooks();
+    getBooks();
   }
 
   const getBooks = () => {
@@ -36,8 +36,8 @@ export const Context = ({ children }) => {
     findBook.qty = findBook.qty + 1;
 
     localStorage.setItem("books", JSON.stringify(bookData))
-    // getBooks()
-    console.log(books)
+    getBooks()
+    // console.log(books)
   }
 
   const substractButton =(books)=>{

@@ -368,7 +368,7 @@ export const Blog = () => {
       {/* ======FOURTH SECTION===== */}
       <div className="w-[90%] lg:flex lg:w-[90%] mx-auto">
         <div className="flex flex-col gap-7 mt-[50px] mb-[50px] w-[90%] lg:w-[70%] mx-auto">
-          <p className="text-xl hover:text-[#4e66c3]">
+          <div className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://venturebeat.com/enterprise-analytics/the-difference-between-application-observability-and-data-observability/"
               target="_blank" rel="noreferrer"
@@ -384,9 +384,9 @@ export const Blog = () => {
                 borderBlockColor: "#006",
               }}
             ></hr>
-          </p>
+          </div>
 
-          <p className="text-xl hover:text-[#4e66c3]">
+          <div className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://mashable.com/ad/article/data-leaks-breach-protection"
               target="_blank" rel="noreferrer"
@@ -401,9 +401,9 @@ export const Blog = () => {
                 borderBlockColor: "#006",
               }}
             ></hr>
-          </p>
+          </div>
 
-          <p className="text-xl hover:text-[#4e66c3]">
+          <div className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://venturebeat.com/data-infrastructure/an-open-data-lakehouse-will-maintain-and-grow-the-value-of-your-data/"
               target="_blank" rel="noreferrer"
@@ -419,9 +419,9 @@ export const Blog = () => {
                 borderBlockColor: "#006",
               }}
             ></hr>
-          </p>
+          </div>
 
-          <p className="text-xl hover:text-[#4e66c3]">
+          <div className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://venturebeat.com/ai/data-through-a-prism-ai-powered-analysis-key-to-gleaning-data-insights/"
               target="_blank" rel="noreferrer"
@@ -437,9 +437,9 @@ export const Blog = () => {
                 borderBlockColor: "#006",
               }}
             ></hr>
-          </p>
+          </div>
 
-          <p className="text-xl hover:text-[#4e66c3]">
+          <div className="text-xl hover:text-[#4e66c3]">
             <a
               href="https://mashable.com/article/openai-chatgpt-bug-exposed-user-data-privacy-breach"
               target="_blank" rel="noreferrer"
@@ -455,7 +455,7 @@ export const Blog = () => {
                 borderBlockColor: "#006",
               }}
             ></hr>
-          </p>
+          </div>
           <p className="font-bold text-lg hover:text-[#4e66c3]">
             <a href="https://mashable.com/tech">MORE ON TECH </a>
             <BsArrowRight />

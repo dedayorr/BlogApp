@@ -57,7 +57,7 @@ export const Cart = () => {
       </div>
       <div
         className="bg-[#4e66c3] flex justify-center mx-auto mt-[10px] mb-[10px] w-[40%] p-3 text-white text-lg hover:bg-black"
-        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px;" }}
+        style={{ boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px" }}
         onClick={() => setCheckoutFormOpen(true)}
       >
         Checkout
