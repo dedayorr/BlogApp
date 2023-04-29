@@ -51,7 +51,7 @@ export const Home = () => {
             href="https://www.wired.com/story/i-saw-the-face-of-god-in-a-tsmc-factory/"
             target="_blank" rel="noreferrer"
           >
-            <h1 className="font-serif font-extrabold text-3xl md:text-5xl">
+            <h1 className="font-serif font-extrabold text-3xl md:text-xl lg:text-5xl">
               I Saw the Face of God in a Semiconductor Factory
             </h1>
           </a>
@@ -74,7 +74,19 @@ export const Home = () => {
             <Controls visible={false} />
           </Player>
         </div>
-        <div className="hidden md:block">
+        <div className="hidden lg:hidden md:block">
+          <Player
+            src="https://assets9.lottiefiles.com/private_files/lf30_ssAghj.json"
+            background="transparent"
+            speed="1"
+            style={{ width: "300px", height: "400px" }}
+            loop
+            autoplay
+          >
+            <Controls visible={false} />
+          </Player>
+        </div>
+        <div className="hidden md:hidden lg:block">
           <Player
             src="https://assets9.lottiefiles.com/private_files/lf30_ssAghj.json"
             background="transparent"
@@ -181,12 +193,12 @@ export const Home = () => {
           <img className="md:hidden" src="./image4.jpeg" alt="img" />
           <div className="flex gap-3">
             <img
-              className="hidden md:block"
+              className="hidden lg:block"
               src="./image4.jpeg"
-              width="700px"
+              width="100px"
               alt="img"
             />
-            <p className=" hidden md:block">
+            <p className=" hidden lg:block">
               The race to decipher the workings of the human brain, and build
               new economies around it, is on. Today’s great entrepreneurs –
               people such as Paul Allen, Jeffrey Hawkins and Robin Li – believe
