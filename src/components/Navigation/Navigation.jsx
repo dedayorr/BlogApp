@@ -63,7 +63,25 @@ export const Navigation = () => {
           </ul>
         )}
 
-        <ul className="hidden md:flex  md:text-2xl md:gap-[30px] md:mr-[2%] text-[#f0e8e8da] justify-center items-center ">
+        <ul className="hidden lg:hidden md:flex  md:text-xl md:gap-[10px] md:mr-[2%] text-[#f0e8e8da] justify-center items-center ">
+          <li className="cursor hover:underline">
+            <Link to="/">HOME</Link>
+          </li>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
+            <Link to="/blogpage">BLOG</Link>
+          </li>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
+            <Link to="/storepage">STORE</Link>
+          </li>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
+            <Link to="/contactpage">CONTACT</Link>
+          </li>
+          <li className="cursor hover:underline" onClick={()=>{<ScrollToTop />}}>
+            <Link to="/dashboard">DASHBOARD</Link>
+          </li>
+        </ul>
+
+        <ul className="hidden lg:flex  md:text-2xl md:gap-[30px] md:mr-[2%] text-[#f0e8e8da] justify-center items-center ">
           <li className="cursor hover:underline">
             <Link to="/">HOME</Link>
           </li>

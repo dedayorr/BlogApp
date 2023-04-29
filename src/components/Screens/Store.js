@@ -1,6 +1,4 @@
 import React, { useState, useContext, useEffect } from "react";
-// import AwesomeSlider from "react-awesome-slider";
-// import "react-awesome-slider/dist/styles.css";
 import { BsCart4 } from "react-icons/bs";
 import { BsFillTagsFill } from "react-icons/bs";
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -146,37 +144,14 @@ export const Store = () => {
     setnewArrival(filteredbooks);
   }
 
-  // function addBookHandler(){
-  //   const productExist = cartItems.find((item)=> item.id === Books.id)
-  //   if(productExist){
-  //     setCartItems(cartItems.map((items)=> items.id === Books.id))
-  //   } 
-  // }
-
-  // function addHandle(
-
-  // )
 
   return (
     <div>
-      <div className="absolute bg-[#0000008e] top-[100px] bottom-0 right-0 left-0 h-[68%] z-20 md:top-[105px] md:h-[69%]"></div>
-      <p className="absolute top-[38%] right-[5%] left-[5%] font-extrabold text-4xl text-white z-40 md:text-6xl">
+      
+      <div className="absolute bg-[#0000008e] top-[100px] bottom-0 right-0 left-0 h-[68%] z-20 lg:top-[105px] lg:h-[69%] md:h-[40%]"></div>
+      <p className="md:top-[20%] lg:top-[38%] absolute top-[38%] right-[5%] left-[5%] font-extrabold text-4xl text-white z-40 md:text-6xl">
         “Books are a uniquely portable magic.”
       </p>
-      {/* <AwesomeSlider
-        animation="cubeAnimation"
-        className="h-[450px] w-[100px] md:h-[500px]"
-      >
-        <img
-          data-src="books.jpg"
-          alt="imagem"
-          width={500}
-          height={500}
-          title="imagem"
-        />
-        <img data-src="skullbooks.jpg" alt="imagem" title="imagem" />
-        <img data-src="book-walljpg.jpg" alt="imagem" title="imagem" />
-      </AwesomeSlider> */}
       <br></br>
       <br></br>
       <div className="flex md:justify-center gap-[50px]">
@@ -197,7 +172,7 @@ export const Store = () => {
           style={{ width: "350px", height: "400px" }}
           loop
           autoplay
-          className="hidden md:block"
+          className="hidden lg:block"
         >
           <Controls visible={false} />
         </Player>
@@ -214,7 +189,7 @@ export const Store = () => {
         </Player>
       </div>
 
-      <div className="cursor-pointer flex gap-3 border w-[40%] p-[1%] ml-[5%] md:ml-[1%] md:mb-[-10px] md:w-[15%]" onClick={() => setShipping((prev) => !prev)}>
+      <div className="cursor-pointer flex gap-3 border w-[40%] p-[1%] ml-[5%] md:ml-[1%] md:mb-[-10px] md:mt-[50px] md:w-[15%]" onClick={() => setShipping((prev) => !prev)}>
         <div>Ship to</div>
         <img src="./nigeria.jpg" width={40} alt="img" />{" "}
         <div
@@ -301,7 +276,7 @@ export const Store = () => {
           })}
       </div>
 
-      <div className="flex flex-col mb-[20px] md:flex md:flex-row w-[90%] mx-auto gap-10 hover:drop-shadow-2xl ">
+      <div className="flex flex-col mb-[20px] lg:flex lg:flex-row w-[90%] mx-auto gap-10 hover:drop-shadow-2xl ">
         <img src="./whatwherehow.jpeg" width={400} height={400} alt="img" />
         <img src="./read.jpg" width={400} height={400} alt="img" />
         <img src="./bookgraphic.jpeg" width={400} height={400} alt="img" />
