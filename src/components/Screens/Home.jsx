@@ -97,6 +97,7 @@ export const Home = () => {
           >
             <Controls visible={false} />
           </Player>
+          
         </div>
       </div>
 
