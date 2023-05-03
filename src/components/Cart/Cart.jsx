@@ -22,6 +22,7 @@ export const Cart = () => {
     getBooks();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+  
   return (
     <div className="md:mt-[20px] border md:w-[80%] md:float-right md:mr-[20px] md:mb-[20px]">
       {cartBooks && cartBooks.length > 0 ? (

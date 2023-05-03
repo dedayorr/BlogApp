@@ -12,11 +12,10 @@ export const Addblog = ({ setBlogOpen, getBlogs }) => {
     image:"",
     desc: "",
     date: "",
-    
   });
-  const { title, image, desc, date } = state;
-  console.log(state)
 
+  const { title, image, desc, date } = state;
+  
   function submitHandler(e) {
     e.preventDefault();
     const { title, image, desc, date  } = state;
@@ -24,7 +23,6 @@ export const Addblog = ({ setBlogOpen, getBlogs }) => {
       toast.warning("All field is required");
       return;
     }
-
     setLoading(true);
     const data = { id: uuidv4(), title, image, desc, date,  };
 
@@ -39,8 +37,7 @@ export const Addblog = ({ setBlogOpen, getBlogs }) => {
       setBlogOpen(false);
       // console.log(blogs)
       getBlogs()
-    }, 3000);
-    
+    }, 3000); 
   }
 
   function changeHandler(e) {
@@ -50,7 +47,6 @@ export const Addblog = ({ setBlogOpen, getBlogs }) => {
       [name]: value,
     });
   }
-
   
   return (
     <div>

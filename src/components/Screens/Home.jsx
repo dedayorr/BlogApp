@@ -196,7 +196,7 @@ export const Home = () => {
             <img
               className="hidden lg:block"
               src="./image4.jpeg"
-              width="100px"
+              width="600px"
               alt="img"
             />
             <p className=" hidden lg:block">
