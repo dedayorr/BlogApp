@@ -147,7 +147,7 @@ export const Store = () => {
 
   return (
     <div>
-      <img className="h-[450px] md:h-[580px] md:w-[100%]" src="./bookshelf.jpg" alt=""/>
+      <img className="h-[450px] md:h-[580px] md:w-[100%]" src="./oldbooks.jpg" alt=""/>
       <div className="absolute bg-[#0000008e] top-[100px] bottom-0 right-0 left-0 h-[68%] z-20 lg:top-[105px] lg:h-[80%] md:h-[49%]"></div>
       <p className="md:top-[20%] lg:top-[38%] absolute top-[38%] right-[5%] left-[5%] font-extrabold text-4xl text-white z-40 md:text-6xl">
         “Books are a uniquely portable magic.”

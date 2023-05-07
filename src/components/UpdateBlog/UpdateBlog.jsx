@@ -3,6 +3,8 @@ import { AiFillCloseCircle } from "react-icons/ai";
 import Spinner from "../Spinner/Spinner";
 import { toast } from "react-toastify";
 import { v4 as uuidv4 } from "uuid";
+// import axios from "axios";
+
 
 export const UpdateBlog = ({ setBlogOpen, setUpdateOpen, id }) => {
   console.log(id);
@@ -20,10 +22,10 @@ export const UpdateBlog = ({ setBlogOpen, setUpdateOpen, id }) => {
   function submitHandler(e) {
     e.preventDefault();
     const { title, image, desc, date } = state;
-    // if (title === "" || image === "" || desc === "" || date === "") {
-    //   toast.warning("All field is required");
-    //   return;
-    // }
+    if (title === "" || image === "" || desc === "" || date === "") {
+      toast.warning("All field is required");
+      return;
+    }
 
     setLoading(true);
     
